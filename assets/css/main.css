@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+    html {
+		font-family: Poppins, system-ui, sans-serif;
+    }
+    html::-webkit-scrollbar {
+      /* hidden scrollbar */
+		width: 0rem;
+		height: 0rem;
+    }
+    .no-scroll-size::-webkit-scrollbar {
+      /* hidden scrollbar */
+		width: 0rem;
+		height: 0rem;
+    }
+}
