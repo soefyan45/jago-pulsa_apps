@@ -2,7 +2,7 @@
     <div>
 		<nuxt-layout :name="layout">
 			<div class="w-full h-screen flex flex-col">
-				<div class="w-full flex justify-between px-4 py-4 bg-biru1">
+				<div class="w-full flex justify-between px-6 py-4 bg-biru1">
 					<div class="w-8/12 flex flex-col">
 						<span class="text-12 text-white font-normal">Selamat Datang,</span>
 						<span class="text-19 text-white font-medium tracking-0-15">Soefyan Syah</span>
@@ -14,8 +14,8 @@
 					</div>
 				</div>
 				<div class="h-48 bg-biru1 flex flex-col rounded-b-2xl">
-					<div class="bg-white flex rounded-xl p-4 ml-4 mr-4 mt-2">
-						<div  class="grid grid-cols-4 gap-y-8 gap-x-10 px-2 py-4 items-center justify-center text-xxs font-medium">
+					<div class="bg-white flex rounded-xl p-2 mx-8 mt-2">
+						<div  class="grid grid-cols-4 gap-y-8 gap-x-8 px-2 py-4 items-center justify-center text-xxs font-medium">
 							<div class="flex flex-col items-center">
 								<img src="/public/icon/mobile.svg"/>
 								<div class="flex text-black font-normal pt-1 text-12">Pulsa</div>
