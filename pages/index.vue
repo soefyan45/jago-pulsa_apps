@@ -14,8 +14,8 @@
 					</div>
 				</div>
 				<div class="h-48 bg-biru1 flex flex-col rounded-b-2xl">
-					<div class="bg-white flex rounded-xl p-2 mx-8 mt-2">
-						<div  class="grid grid-cols-4 gap-y-8 gap-x-8 px-2 py-4 items-center justify-center text-xxs font-medium">
+					<div class="bg-white flex rounded-xl p-2 mx-6 mt-2 justify-center">
+						<div  class="grid grid-cols-4 gap-y-8 gap-x-6 px-2 py-4 items-center justify-center text-xxs font-medium">
 							<div class="flex flex-col items-center">
 								<img src="/public/icon/mobile.svg"/>
 								<div class="flex text-black font-normal pt-1 text-12">Pulsa</div>
