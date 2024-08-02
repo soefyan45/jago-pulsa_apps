@@ -21,11 +21,11 @@
 								<div class="flex text-black font-normal pt-1 text-12">Pulsa</div>
 							</div>
 							<div class="flex flex-col items-center">
-								<img src="/public/icon/mobile.svg"/>
+								<img src="/public/icon/data.svg"/>
 								<div class="flex text-black font-normal pt-1 text-12">Data</div>
 							</div>
 							<div class="flex flex-col items-center">
-								<img src="/public/icon/mobile.svg"/>
+								<img src="/public/icon/tlpsms.svg"/>
 								<div class="flex text-black font-normal pt-1 text-12">Telp&SMS</div>
 							</div>
 							<div class="flex flex-col items-center">
@@ -51,8 +51,23 @@
 						</div>
 					</div>
 				</div>
-				<div class="flex flex-col w-full pt-20 px-4">
+				<div class="flex flex-col w-full pt-20 px-5">
 					<div class="w-full flex font-semibold text-15">Belanja Makin Hemat !!!</div>
+					<div class="w-full text-13 font-normal text-wrap -tracking-2">Dapetin diskon dan harga spesial nya di <strong>Jagopulsa</strong> sekarang sebelum kehabisan!!!</div>
+				</div>
+				<div class="w-full fle flex-col justify-center items-center pt-2">
+					<carousel :items-to-show="1.5" :wrap-around="true">
+						<Slide v-for="slide in 10" :key="slide">
+							<div class="carousel__item rounded-lg w-full mx-2">
+								<img class="w-full mx-auto object-cover" src="/public/caraousel.png"/>
+							</div>
+						</Slide>
+
+						<template #addons>
+						<Navigation />
+						</template>
+					</carousel>
+					
 				</div>
 			</div>
 		</nuxt-layout>
@@ -60,7 +75,9 @@
 </template>
 
 <script setup>
-        let layout = ref('mobile-unauthorize')
+    let layout = ref('mobile-unauthorize')
+	import 'vue3-carousel/dist/carousel.css'
+	import { Carousel, Slide, Pagination, Navigation } from 'vue3-carousel'
 	definePageMeta({
 		middleware: [
 			'un-auth',

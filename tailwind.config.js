@@ -32,6 +32,7 @@ export default {
       fontSize: {
 				// 'mediumbig' : '55px',
 				'12' 		: '12px',
+				'13' 		: '13px',
 				'15' 		: '15px',
 				'19' 		: '19px',
 			},
