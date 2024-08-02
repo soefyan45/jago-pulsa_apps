@@ -51,7 +51,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="flex flex-col w-full pt-20 px-5">
+				<div class="flex flex-col w-full pt-16 px-5">
 					<div class="w-full flex font-semibold text-15">Belanja Makin Hemat !!!</div>
 					<div class="w-full text-13 font-normal text-wrap -tracking-2">Dapetin diskon dan harga spesial nya di <strong>Jagopulsa</strong> sekarang sebelum kehabisan!!!</div>
 				</div>
