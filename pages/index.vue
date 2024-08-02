@@ -58,6 +58,7 @@
 				<div class="w-full fle flex-col justify-center items-center pt-2">
 					<carousel :items-to-show="1.5" :wrap-around="true">
 						<Slide v-for="slide in 10" :key="slide">
+						
 							<div class="carousel__item rounded-lg w-full mx-2">
 								<img class="w-full mx-auto object-cover" src="/public/caraousel.png"/>
 							</div>
