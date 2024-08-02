@@ -18,12 +18,13 @@
 						<div class="w-full flex px-6">
 							<div class="w-full flex flex-col bg-abu5 shadow-lg rounded-lg px-1">
 								<div class="flex w-full p-2 justify-between">
-									<div class="flex space-x-1 font-medium">
+									<div class="flex space-x-1 font-medium w-8/12 items-center justify-start">
 										<img src="/public/icon/walletpersonal.svg"/>
 										<span>Rp. 50.000</span>
 									</div>
-									<div>
-										<img src="/public/icon/plus-circle.svg"/>
+									<div class="flex flex-col text-12 items-end justify-center">
+										<img  class="h-5 mx-auto"src="/public/icon/plus-circle.svg"/>
+										<span>Top Up</span>
 									</div>
 								</div>
 							</div>
@@ -104,7 +105,7 @@
 								<span class="text-12 font-medium">Rp 25.000</span>
 							</div>
 						</div>
-						<div class="w-full flex bg-abu5 rounded-lg items-center p-2 space-x-4 justify-between">
+						<div v-for="i in 10" class="w-full flex bg-abu5 rounded-lg items-center p-2 space-x-4 justify-between">
 							<div class="flex space-x-2 items-center">
 								<div class="h-12 w-12 rounded-full items-center justify-center flex bg-gray-100">
 									<img class="object-cover" src="/public/icon/file-check-01.svg" />
@@ -119,6 +120,33 @@
 								<button class="border-2 border-green-500 rounded-xl px-0.5 text-12 font-medium bg-green-200 text-center">Success</button>
 								<span class="text-12 font-medium">Rp 25.000</span>
 							</div>
+						</div>
+					</div>
+					<div class="flex w-full h-20"></div>
+				</div>
+				
+				<div class="bottom-0 fixed w-full flex-col h-[64px] items-start">
+					<div class="h-full w-full bg-biru1 flex justify-between p-2 px-20">
+						<div class="flex flex-col space-y-1 items-center">
+							<div class="h-[32px] w-[32px] bg-gold1 rounded-lg flex justify-center p-1 shadow-md">
+								<!-- <img src="/public/icon/home1.svg"/> -->
+								<IconHome/>
+							</div>
+							<span class="text-12 font-normal text-abu5">Beranda</span>
+						</div>
+						<div class="flex flex-col space-y-1 items-center">
+							<div class="h-[32px] w-[32px] bg-abu5 rounded-lg flex justify-center p-1 shadow-md">
+								<!-- <img src="/public/icon/home1.svg"/> -->
+								<IconHome/>
+							</div>
+							<span class="text-12 font-normal text-abu5">Riwayat</span>
+						</div>
+						<div class="flex flex-col space-y-1 items-center">
+							<div class="h-[32px] w-[32px] bg-abu5 rounded-lg flex justify-center p-1 shadow-md">
+								<!-- <img src="/public/icon/home1.svg"/> -->
+								<IconHome/>
+							</div>
+							<span class="text-12 font-normal text-abu5">Profile</span>
 						</div>
 					</div>
 				</div>
