@@ -101,7 +101,7 @@
 							</div>
 							<div class="flex flex-col justify-center items-end">
 								<button class="border-2 border-orange-500 rounded-xl px-0.5 text-12 font-medium bg-red-200 text-center">Proses</button>
-								<span>Rp 25.000</span>
+								<span class="text-12 font-medium">Rp 25.000</span>
 							</div>
 						</div>
 						<div class="w-full flex bg-abu5 rounded-lg items-center p-2 space-x-4 justify-between">
@@ -117,7 +117,7 @@
 							</div>
 							<div class="flex flex-col justify-center items-end">
 								<button class="border-2 border-green-500 rounded-xl px-0.5 text-12 font-medium bg-green-200 text-center">Success</button>
-								<span>Rp 25.000</span>
+								<span class="text-12 font-medium">Rp 25.000</span>
 							</div>
 						</div>
 					</div>
