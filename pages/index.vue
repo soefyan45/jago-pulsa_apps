@@ -94,9 +94,9 @@
 									<img class="object-cover" src="/public/icon/file-question-01.svg" />
 								</div>
 								<div class="flex flex-col -space-y-2">
-									<span class="font-medium text-18">Pulsa</span>
-									<span class="font-light text-14">Order Id : ****232</span>
-									<span class="font-light text-14">14 No 2024 . 06:30</span>
+									<span class="font-medium text-16">Pulsa</span>
+									<span class="font-light text-12">Order Id : ****232</span>
+									<span class="font-light text-12">14 No 2024 . 06:30</span>
 								</div>
 							</div>
 							<div class="flex flex-col justify-center items-end">
@@ -110,9 +110,9 @@
 									<img class="object-cover" src="/public/icon/file-check-01.svg" />
 								</div>
 								<div class="flex flex-col -space-y-2">
-									<span class="font-medium text-18">Pulsa</span>
-									<span class="font-light text-14">Order Id : ****232</span>
-									<span class="font-light text-14">14 No 2024 . 06:30</span>
+									<span class="font-medium text-16">Pulsa</span>
+									<span class="font-light text-12">Order Id : ****232</span>
+									<span class="font-light text-12">14 No 2024 . 06:30</span>
 								</div>
 							</div>
 							<div class="flex flex-col justify-center items-end">
