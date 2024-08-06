@@ -1,6 +1,6 @@
 <template>
-    <div class="w-full flex-col h-[64px] items-start">
-        <div class="h-full w-full bg-biru1 flex justify-between p-2 px-20">
+    <div class="w-full h-[64px] bg-biru1 items-start">
+        <div class="h-full max-w-md mx-auto flex justify-between p-2 px-20">
             <NuxtLink to="/apps/" class="flex flex-col space-y-1 items-center">
                 <div class="h-[32px] w-[32px] bg-abu5 rounded-lg flex justify-center p-1 shadow-md" :class="{' bg-gold3':beranda==route['path']}">
                     <IconHome class="text-biru1"/>

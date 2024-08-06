@@ -26,6 +26,7 @@ export default {
 				'gold4' : '#FFF5DD',
         //
         'abu5' : '#FAFAFA',
+        'abu6' : '#E9EBEF',
         //
         'putih' : '#FFFFFF',
 			},
@@ -38,6 +39,7 @@ export default {
 				'17' 		: '17px',
 				'18' 		: '18px',
 				'19' 		: '19px',
+				'23' 		: '23px',
 			},
       letterSpacing: {
         '0-15' : '0.15px'

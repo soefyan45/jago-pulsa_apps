@@ -1,5 +1,5 @@
 <template>
-	<div class="w-full h-full flex flex-col bg-abu5">
+	<div class="w-full h-full bg-abu5">
 		<!-- <menu-desktop/> -->
 		<slot/>
 		<!-- <footer-desktop/> -->

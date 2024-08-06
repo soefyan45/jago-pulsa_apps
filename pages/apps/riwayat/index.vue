@@ -1,8 +1,8 @@
 <template>
      <div>
         <nuxt-layout :name="layout">
-        <div class="max-w-md mx-auto h-full">
-            <div class="w-full mx-auto flex flex-col">
+        <div class="max-w-md mx-auto h-full relative">
+            <div class="w-full flex flex-col">
                 <div class="w-full flex justify-between px-6 py-4 bg-biru1">
                     <div class="w-8/12 flex flex-col">
                         <span class="text-19 text-white font-semibold">Riwayat Transaksi</span>
@@ -19,7 +19,7 @@
                     </div>
                 </div>
             </div>
-            <div class="w-full flex flex-col pt-4 px-6">
+            <div class="w-full flex pt-4 px-6">
                 <div class="w-full flex flex-col pt-4 space-y-2">
                     <div v-for="i in 100" class="w-full flex bg-abu5 rounded-lg items-center p-2 space-x-4 justify-between">
                         <div class="flex space-x-2 items-center">
@@ -39,8 +39,7 @@
                     </div>
                 </div>
             </div>
-            
-            
+            <div class="flex w-full h-20"></div>
         </div>
         <div class="w-full fixed bottom-0">
             <BottomMenu/>
