@@ -1,14 +1,28 @@
 <template>
     <div>
-        <nuxt-layout :name="layout" class="bg-red-800">
-            <div class="w-full flex flex-col">
-                <div class="w-full flex justify-between px-6 py-4 bg-biru1">
-                    <div class="w-8/12 flex flex-col">
-                        <span class="text-19 text-white font-semibold">Profile</span>
+        <nuxt-layout :name="layout">
+            <div class="max-w-md h-full flex">
+                <div class="w-full flex flex-col">
+                    <div class="w-full flex justify-between px-6 py-4 bg-biru1">
+                        <div class="w-8/12 flex flex-col">
+                            <span class="text-19 text-white font-semibold">Riwayat Transaksi</span>
+                        </div>
+                    </div>
+                    <div class="h-12 bg-white border-b shadow-md flex justify-between text-12 font-normal text-biru1">
+                        <div class="w-6/12 flex items-center justify-center space-x-2">
+                            <IconSortAmountDown/>
+                            <span>Urutkan</span>
+                        </div>
+                        <div class="w-6/12 flex items-center justify-center space-x-2">
+                            <IconFilter/>
+                            <span>Filter</span>
+                        </div>
                     </div>
                 </div>
             </div>
-            <BottomMenu/>
+            <div class="w-full fixed bottom-0">
+                <BottomMenu/>
+            </div>
         </nuxt-layout>
     </div>
 </template>

@@ -1,5 +1,5 @@
 <template>
-	<div class="max-w-md h-screen mx-auto flex flex-col relative font-poppins bg-abu5">
+	<div class="w-full h-full mx-auto flex flex-col relative font-poppins bg-abu5">
 		<!-- <menu-desktop/> -->
 		<slot/>
 		<!-- <footer-desktop/> -->

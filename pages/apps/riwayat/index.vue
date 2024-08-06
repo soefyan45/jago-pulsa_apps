@@ -1,7 +1,8 @@
 <template>
-    <div>
+     <div>
         <nuxt-layout :name="layout">
-            <div class="w-full flex flex-col">
+        <div class="max-w-md mx-auto h-full">
+            <div class="w-full mx-auto flex flex-col">
                 <div class="w-full flex justify-between px-6 py-4 bg-biru1">
                     <div class="w-8/12 flex flex-col">
                         <span class="text-19 text-white font-semibold">Riwayat Transaksi</span>
@@ -38,7 +39,12 @@
                     </div>
                 </div>
             </div>
+            
+            
+        </div>
+        <div class="w-full fixed bottom-0">
             <BottomMenu/>
+        </div>
         </nuxt-layout>
     </div>
 </template>
@@ -50,5 +56,5 @@
 		],
 	});
 </script>
-<style>
+<style scoped>
 </style>

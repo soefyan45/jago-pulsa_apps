@@ -1,6 +1,7 @@
 <template>
     <div>
 		<nuxt-layout :name="layout">
+		<div class="max-w-md mx-auto h-full">
 			<div class="w-full flex justify-between px-6 py-4 bg-biru1">
 				<div class="w-8/12 flex flex-col">
 					<span class="text-12 text-white font-normal">Selamat Datang,</span>
@@ -123,7 +124,11 @@
 				</div>
 				<div class="flex w-full h-20"></div>
 			</div>
+		</div>
+			
+		<div class="w-full fixed bottom-0">
 			<BottomMenu/>
+		</div>
 		</nuxt-layout>
 	</div>
 </template>
