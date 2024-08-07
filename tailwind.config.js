@@ -44,6 +44,9 @@ export default {
       letterSpacing: {
         '0-15' : '0.15px'
       },
+      height: {
+        '40p': '40px',
+      }
     },
   },
   plugins: [],

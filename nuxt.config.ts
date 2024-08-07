@@ -73,6 +73,10 @@ export default defineNuxtConfig({
 		},
 	},
   	ssr: false,
+	routeRules : {
+		'/_nuxt/**': { headers: { 'access-control-allow-methods': 'GET' } },
+		'/api/v1/**': { cors: false},
+	},
   	devServer: {
 		port: 3043,
 	},
@@ -81,17 +85,18 @@ export default defineNuxtConfig({
 		server: {
 			hmr: {
 				protocol: "ws",
-				// host: "app.jagopulsa.test",
+				host: "localhost",
+				// clientPort: 443, 
 			},
-			watch: {
-				usePolling: true,
-			},
+			// watch: {
+			// 	usePolling: true,
+			// },
 		},
 	},
-	nitro: {
-		devServer: {
-		  // My files are under src, if yours are in the root you can change this to ./
-		  watch: ['./src']
-		}
-	}
+	// nitro: {
+	// 	devServer: {
+	// 	  // My files are under src, if yours are in the root you can change this to ./
+	// 	  watch: ['./src']
+	// 	}
+	// }
 })
