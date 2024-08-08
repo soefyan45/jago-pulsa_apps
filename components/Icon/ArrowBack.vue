@@ -1,11 +1,10 @@
 <template>
 	<div>
-		<svg @click="$router.go(-1)" class="rotate-90" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-			<path d="M12 20V4M12 4L6 10M12 4L18 10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+		<svg  @click="$router.go(-1)" width="12" height="25" viewBox="0 0 12 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+			<path d="M10.8418 22.7139L11.7699 21.7858C11.9896 21.5662 11.9896 21.21 11.7699 20.9903L3.29966 12.4999L11.7699 4.00943C11.9896 3.78977 11.9896 3.43362 11.7699 3.21391L10.8418 2.28584C10.6222 2.06618 10.266 2.06618 10.0463 2.28584L0.23005 12.1022C0.0103936 12.3218 0.0103936 12.678 0.23005 12.8977L10.0463 22.714C10.266 22.9336 10.6222 22.9336 10.8418 22.7139Z" fill="white"/>
 		</svg>
 	</div>
 </template>
-
 <script setup>
 
 </script>

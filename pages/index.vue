@@ -10,9 +10,9 @@
 			<div class="w-full items-start">
                 <div class="h-full max-w-md mx-auto flex flex-col space-y-4 pb-10 p-2 px-20">
                     <div class="w-10/12 mx-auto h10 flex justify-between space-x-2">
-                        <div class="h-1 w-3/12 bg-abu6 rounded-3xl"></div>
-                        <div class="h-1 w-3/12 bg-gray-400 rounded-3xl"></div>
-                        <div class="h-1 w-3/12 bg-gray-400 rounded-3xl"></div>
+                        <div @click="toStepBording(1)" class="h-1 w-3/12 bg-gray-400 rounded-3xl" :class="{'bg-white':OnBordingActive=='1'}"></div>
+                        <div @click="toStepBording(2)" class="h-1 w-3/12 bg-gray-400 rounded-3xl" :class="{'bg-white':OnBordingActive==2}"></div>
+                        <div @click="toStepBording(3)" class="h-1 w-3/12 bg-gray-400 rounded-3xl" :class="{'bg-white':OnBordingActive==3}"></div>
                     </div>
                     <div class="flex flex-col w-full space-y-1 items-center">
                         <div @click="NextStepBording()" class="h-10 w-full bg-biru1 rounded-lg flex items-center text-white text-16 justify-center text-center p-1 shadow-md" >
@@ -20,7 +20,7 @@
                         </div>
                     </div>
                     <div class="flex flex-col w-full space-y-1 items-center">
-                        <div class="h-10 w-full bg-gold1 rounded-lg flex items-center text-white text-16 justify-center text-center p-1 shadow-md" >
+                        <div @click="skipStepBording()" class="h-10 w-full bg-gold1 rounded-lg flex items-center text-white text-16 justify-center text-center p-1 shadow-md" >
                             Lewati
                         </div>
                     </div>
@@ -45,6 +45,9 @@
         }, 1000);
         
     });
+    const toStepBording=async(val)=>{
+        OnBordingActive.value=val
+    }
     const NextStepBording=async()=>{
         if(OnBordingActive.value==3){
             localStorage.setItem("OnBordingStatus", OnBordingActive.value);
@@ -52,7 +55,10 @@
         }
         OnBordingActive.value +=1
     }
-
+    const skipStepBording=async()=>{
+        localStorage.setItem("OnBordingStatus", 3);
+        return router.push('/apps/');
+    }
 
 </script>
 <style>

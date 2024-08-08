@@ -30,10 +30,10 @@
 						</div>
 					</div>
 					<div  class="grid grid-cols-4 gap-y-4 gap-x-6 px-2 py-4 items-center justify-center text-xxs font-medium">
-						<div class="flex flex-col items-center">
+						<NuxtLink to="/apps/produks/pulsa" class="flex flex-col items-center">
 							<img src="/public/icon/mobile.svg"/>
 							<div class="flex text-black font-normal pt-1 text-12">Pulsa</div>
-						</div>
+						</NuxtLink>
 						<div class="flex flex-col items-center">
 							<img src="/public/icon/data.svg"/>
 							<div class="flex text-black font-normal pt-1 text-12">Data</div>
