@@ -1,6 +1,6 @@
 <template>
     <nuxt-layout :name="layout">
-		<div class="max-w-md mx-auto h-lvh relative">
+		<div class="max-w-md mx-auto h-lvh bg-abu5 relative">
 			<div class="w-full flex flex-col bg-biru1 fixed top-0">
                 <div class="w-full flex justify-between px-4 py-4">
                     <div class="w-full flex items-center space-x-3">
@@ -8,7 +8,7 @@
                         <span class="text-19 text-white font-semibold">Pulsa</span>
                     </div>
                 </div>
-                <!-- <div class="w-full flex px-4 py-4">
+                <div class="w-full flex px-4 py-4">
                     <div class="w-full flex flex-col px-4 py-4 bg-white mb-2 space-y-2 rounded-xl">
                         <span class="text-12 font-medium tracking-wide px-2">Masuk Nomor HP</span>
                         <div class="w-full flex space-x-2">
@@ -23,20 +23,16 @@
                             </div>
                         </div>
                     </div>
-                </div>                 -->
+                </div>                
             </div>
-            <!-- <div class="w-full flex flex-col pt-[calc(100%-1rem)]"></div> -->
-
-            <div class="w-full flex flex-col px-4 pt-20">
-                <!-- <div class="text-18 font-medium tracking-wider">Telkomsel</div> -->
-                <div class="grid grid-cols-1 gap-2">
-                    <NuxtLink v-for="l in 30" to="/apps/produks/pulsa/promo" class="w-full flex space-x-3 px-4 py-2 items-center rounded-lg shadow-lg bg-white">
-                        <div class="h-12 w-12 bg-gold1 rounded-full flex flex-col items-center justify-center">
-                            <!-- <img src="/public/icon/mobile.svg"/> -->
-                            <IconJagoLogo class="h-8 w-8 text-white mx-auto items-center justify-center flex flex-coll"/>
-                        </div>
-                        <div class="text-14 font-light tracking-wide">Pulsa Promo</div>
-                    </NuxtLink>
+            <div class="w-full flex flex-col px-4 pt-56 -pt-2">
+                <div class="text-18 font-medium tracking-wider">Telkomsel</div>
+                <div class="grid grid-cols-2 gap-2 pt-2 pb-10">
+                    <div v-for="l in 30" class="w-full flex flex-col p-2 rounded-lg bg-white">
+                        <div class="font-semibold pb-3 text-12">Telkomsel</div>
+                        <div class="font-light tracking-wide text-12">Harga</div>
+                        <div class="font-bold text-13">Rp6.000</div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -49,6 +45,7 @@
 			'un-auth',
 		],
 	});
+    let nomorTujuan = ref('085271995583')
 </script>
 <style scoped>
 </style>

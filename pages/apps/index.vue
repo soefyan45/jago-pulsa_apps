@@ -9,7 +9,7 @@
 				</div>
 				<div class="w-4/12 flex flex-col items-end">
 					<div class="flex flex-col items-center justify-center">
-						<icon-jago-logo class="flex flex-col mx-auto h-12 w-12 items-center justify-center"/>
+						<icon-jago-logo class="flex flex-col text-gold1 mx-auto h-12 w-12 items-center justify-center"/>
 					</div>
 				</div>
 			</div>
